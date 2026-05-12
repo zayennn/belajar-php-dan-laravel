@@ -23,5 +23,5 @@
         $status = "belum dewasa";
     }
 
-    echo "nama : $nama\numur : $umur\nstatus : $status";
+    echo "\nnama : $nama\numur : $umur\nstatus : $status";
 ?>
