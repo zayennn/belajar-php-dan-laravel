@@ -15,4 +15,11 @@
 
     echo "masukan umur : ";
     $umur = trim(fgets(STDIN));
+
+    $status = "";
+    if ($umur >= 17) {
+        $status = "dewasa";
+    } else {
+        $status = "belum dewasa";
+    }
 ?>
