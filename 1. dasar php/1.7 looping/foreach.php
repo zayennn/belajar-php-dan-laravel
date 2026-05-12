@@ -2,6 +2,6 @@
     $buah = ["apel", "jeruk", "mangga"];
 
     foreach($buah as $b) {
-        echo $b;
+        echo "{$b}\n";
     }
 ?>
