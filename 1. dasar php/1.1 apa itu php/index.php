@@ -1,1 +1,7 @@
-<!-- PHP itu bahasa backend -->
+<!--
+    Browser → Server → PHP diproses → HTML dikirim balik
+-->
+
+<?php
+
+?>
