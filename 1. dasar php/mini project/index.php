@@ -22,4 +22,6 @@
     } else {
         $status = "belum dewasa";
     }
+
+    echo "nama : $nama\n umu : $umur\n status : %status";
 ?>
