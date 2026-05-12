@@ -7,4 +7,7 @@
     
     $nama = "capybara";
     $umur = 5;
+
+    echo $nama;
+    echo $umur;
 ?>
