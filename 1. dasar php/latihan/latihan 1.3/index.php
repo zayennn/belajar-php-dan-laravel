@@ -18,6 +18,6 @@
     ];
 
     for($i = 0; $i < count($siswa); $i++) {
-        echo "nama : $siswa[$i]";
+        echo "nama : " . $siswa[$i]['nama'];
     }
 ?>
