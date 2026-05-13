@@ -6,6 +6,6 @@
     ];
 
     for ($i = 0; $i < count($siswa); $i++) {
-
+        echo $siswa[$i];
     }
 ?>
