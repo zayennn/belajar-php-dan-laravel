@@ -1,4 +1,7 @@
 <?php
+
+    // todo Buat function hitung luas persegi panjang
+
     function hitungPersegiPanjang($panjang, $lebar) {
         return $panjang * $lebar;
     }
