@@ -56,7 +56,7 @@
             <?php endfor ?>
         </ul>
         <p>developer game : <?= $developer ?></p>
-        <p>nama game : <?= $nama_game ?></p>
-        <p>nama game : <?= $nama_game ?></p>
+        <p>tahun rilis : <?= $tahun_rilis ?></p>
+        <p><strong>alasan suka game ini</strong> : <br> <?= $alasan_suka ?></p>
     </body>
 </html>
