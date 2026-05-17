@@ -1,34 +1,33 @@
 <?php
+    /*
+        LATIHAN 2.2
 
-/*
-LATIHAN 2.2
+        Buat halaman "Profil Game"
 
-Buat halaman "Profil Game"
+        Tampilkan:
 
-Tampilkan:
+        - nama game
+        - genre
+        - developer
+        - tahun rilis
+        - alasan suka game itu
 
-- nama game
-- genre
-- developer
-- tahun rilis
-- alasan suka game itu
+        Gunakan:
 
-Gunakan:
+        - variable PHP
+        - HTML
+        - <?= ?>
 
-- variable PHP
-- HTML
-- <?= ?>
+        Contoh output:
 
-Contoh output:
+        PROFIL GAME
 
-PROFIL GAME
+        Nama Game : Valorant
+        Genre : FPS
+        Developer : Riot Games
+        Tahun Rilis : 2020
 
-Nama Game : Valorant
-Genre : FPS
-Developer : Riot Games
-Tahun Rilis : 2020
-
-Kenapa Suka:
-Saya suka gameplay kompetitifnya.
-*/
+        Kenapa Suka:
+        Saya suka gameplay kompetitifnya.
+    */
 ?>
