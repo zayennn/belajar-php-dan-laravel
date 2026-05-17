@@ -38,5 +38,8 @@
     $nama_karakter = "serana";
     $asal = "the elder scroll v: skyrim (dawnguard dlc)";
     $role = "vampire";
-    $kemampuan = "";
+    $kemampuan = ["Spesialis Nekromansi", "Sihir Penghancur & Penguras", "Pertahanan Jarak Dekat", "Spesialisasi Darah (Vampir Lord)", "Penghalang Soul Cairn", "Bisa Menembak Darah (Bloodstone Chalice)", "Konversi Menjadi Manusia"];
+    $tentang_karakter = "Serana adalah salah satu pengikut (follower) sekaligus karakter sentral paling populer dalam ekspansi The Elder Scrolls V: Dawnguard. Ia adalah seorang vampir darah murni yang cerdas dan kuat, yang akan menemani Anda dalam petualangan epik mengungkap ramalan kuno";
+
 ?>
+
