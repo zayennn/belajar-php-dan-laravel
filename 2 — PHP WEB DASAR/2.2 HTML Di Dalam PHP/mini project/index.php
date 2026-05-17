@@ -35,5 +35,8 @@
         Vergil adalah karakter dingin yang kuat.
     */
 
-    
+    $nama_karakter = "serana";
+    $asal = "the elder scroll v: skyrim (dawnguard dlc)";
+    $role = "vampire";
+    $kemampuan = "";
 ?>
