@@ -25,7 +25,16 @@
         ],
     ];
 
-    for($i = 0; $i < count($siswa); $i++) {
+//     for($i = 0; $i < count($siswa); $i++) {
+//         echo "
+// ========= siswa ke " . ($i + 1) . " =========
+// nama siswa      : {$siswa[$i]['nama']}
+// umur siswa      : {$siswa[$i]['umur']}
+// kelas siswa     : {$siswa[$i]['kelas']}
+//         ";
+//     }
+
+    foreach($siswa as $dataSiswa) {
         echo "
 ========= siswa ke " . ($i + 1) . " =========
 nama siswa      : {$siswa[$i]['nama']}
