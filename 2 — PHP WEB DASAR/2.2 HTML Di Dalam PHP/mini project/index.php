@@ -58,7 +58,7 @@
         <p>kemampuan : </p>
         <ul>
             <?php for ($i = 0; $i < count($kemampuan); $i++) : ?>
-
+                <li><?= $kemampuan[$i] ?></li>
             <?php endfor ?>
         </ul>
     </body>
