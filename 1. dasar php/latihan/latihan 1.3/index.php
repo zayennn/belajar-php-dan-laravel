@@ -1,4 +1,11 @@
 <?php
+    /*
+        Buat array data siswa:
+        • nama
+        • umur
+        • kelas
+        Lalu tampilkan semuanya pakai foreach
+    */
     $siswa = [
         [
             "nama" => "capytanic",
