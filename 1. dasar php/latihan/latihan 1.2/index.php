@@ -6,7 +6,7 @@
         return $panjang * $lebar;
     }
 
-    echo "masukan luas persegi panjang : ";
+    echo "masukan panjang persegi panjang : ";
     $panjang = trim(fgets(STDIN));
 
     echo "masukan lebar persegi panjang : ";
