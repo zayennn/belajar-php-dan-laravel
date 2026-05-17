@@ -22,6 +22,7 @@
 ========= siswa ke $i =========
 nama siswa  : {$siswa[$i]['nama']}
 umur siswa  : {$siswa[$i]['umur']}
+umur siswa  : {$siswa[$i]['umur']}
         ";
     }
 ?>
