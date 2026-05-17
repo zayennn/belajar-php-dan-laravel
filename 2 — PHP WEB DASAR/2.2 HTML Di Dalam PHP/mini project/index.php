@@ -52,10 +52,10 @@
         <h1>profile character</h1>
         <hr>
 
-        <p>nama karakter : <?= $nama_karakter ?></p>
-        <p>asal karakter : <?= $asal ?></p>
-        <p>role : <?= $role ?></p>
-        <p>kemampuan : </p>
+        <p><strong>nama karakter</strong> : <?= $nama_karakter ?></p>
+        <p><strong>asal karakter</strong> : <?= $asal ?></p>
+        <p><strong>role</strong> : <?= $role ?></p>
+        <p><strong>kemampuan</strong> : </p>
         <ul>
             <?php for ($i = 0; $i < count($kemampuan); $i++) : ?>
                 <li><?= $kemampuan[$i] ?></li>
