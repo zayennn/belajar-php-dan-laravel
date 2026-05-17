@@ -5,14 +5,14 @@
 
 <!doctype html>
 <html>
-<head>
-    <title>Belajar PHP</title>
-</head>
-<body>
+    <head>
+        <title>Belajar PHP</title>
+    </head>
+    <body>
 
-    <h1>Halo <?= $nama ?></h1>
+        <h1>Halo <?= $nama ?></h1>
 
-    <p>Umur: <?= $umur ?></p>
+        <p>Umur: <?= $umur ?></p>
 
-</body>
+    </body>
 </html>
