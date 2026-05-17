@@ -28,5 +28,18 @@
     $umur = 19;
     $hobi = "ngoding";
     $fav_makanan = "mie ayam";
-    
+
 ?>
+
+<!doctype html>
+<html>
+    <head>
+        <title>latihan</title>
+    </head>
+    <body>
+        <h1>nama : <?= $nama ?></h1>
+        <h1>umur : <?= $umur ?></h1>
+        <h1>hobi : <?= $hobi ?></h1>
+        <h1>makanan favorit : <?= $fav_makanan ?></h1>
+    </body>
+</html>
