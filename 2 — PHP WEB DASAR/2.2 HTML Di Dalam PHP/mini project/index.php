@@ -61,5 +61,9 @@
                 <li><?= $kemampuan[$i] ?></li>
             <?php endfor ?>
         </ul>
+        <p>
+            <strong>tentang karakter : <br></strong>
+            <?= $tentang_karakter ?>
+        </p>
     </body>
 </html>
