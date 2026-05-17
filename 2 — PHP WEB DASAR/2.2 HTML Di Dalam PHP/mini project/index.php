@@ -44,3 +44,14 @@
 ?>
 
 <!doctype html>
+<html>
+    <head>
+        <title>mini project</title>
+    </head>
+    <body>
+        <h1>profile character</h1>
+        <hr>
+
+        <p>nama karakter : <?= $nama_karakter ?></p>
+    </body>
+</html>
