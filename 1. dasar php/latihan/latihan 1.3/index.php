@@ -5,5 +5,15 @@
             "umur" => 10,
             "kelas" => 4
         ],
+        [
+            "nama" => "capypoter",
+            "umur" => 10,
+            "kelas" => 4
+        ],
+        [
+            "nama" => "capyking",
+            "umur" => 10,
+            "kelas" => 4
+        ],
     ];
 ?>
