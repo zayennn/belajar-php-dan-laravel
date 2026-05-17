@@ -34,12 +34,14 @@
 //         ";
 //     }
 
+    $count = 1;
+    
     foreach($siswa as $dataSiswa) {
         echo "
 ========= siswa ke " . ($i + 1) . " =========
-nama siswa      : {$siswa[$i]['nama']}
-umur siswa      : {$siswa[$i]['umur']}
-kelas siswa     : {$siswa[$i]['kelas']}
+nama siswa      : {$dataSiswa['nama']}
+umur siswa      : {$dataSiswa['umur']}
+kelas siswa     : {$dataSiswa['kelas']}
         ";
     }
 ?>
