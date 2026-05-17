@@ -53,5 +53,13 @@
         <hr>
 
         <p>nama karakter : <?= $nama_karakter ?></p>
+        <p>asal karakter : <?= $asal ?></p>
+        <p>role : <?= $role ?></p>
+        <p>kemampuan : </p>
+        <ul>
+            <?php for ($i = 0; $i < count($kemampuan); $i++) : ?>
+
+            <?php endfor ?>
+        </ul>
     </body>
 </html>
