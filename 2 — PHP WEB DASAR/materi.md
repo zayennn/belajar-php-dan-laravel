@@ -1,105 +1,55 @@
 # 2.1 Struktur Project PHP
 
-## Tujuan Pembelajaran
+## Tujuan Belajar
 
-Di materi ini kita akan belajar:
+Di materi ini kamu akan belajar:
 
-- Apa itu `htdocs`
-- Kenapa project PHP harus disimpan di dalam `htdocs`
-- Apa itu `localhost`
+- Apa itu htdocs
+- Kenapa project PHP harus disimpan di situ
+- Apa itu localhost
 - Cara kerja PHP di browser
 - Kenapa `index.php` otomatis terbuka
-- Struktur project PHP sederhana
-- Menjalankan project PHP pertama
+- Cara menjalankan project PHP pertama
 
 ---
 
-# Apa Itu PHP Web?
+# 1. Apa itu htdocs?
 
-Sebelumnya kita belajar PHP menggunakan terminal (`STDIN`, `fgets()`, dll).
-
-Contoh:
-
-```php
-echo "Halo Dunia";
-```
-
-Program dijalankan lewat terminal.
-
-Sekarang kita masuk ke **PHP berbasis web**.
-
-Artinya program dijalankan lewat browser.
-
-Contoh:
-
-```text
-Browser → Server → PHP → HTML → Browser
-```
-
-PHP diproses di server, lalu hasil akhirnya dikirim ke browser.
-
-Browser **tidak menjalankan PHP**, browser hanya menerima hasil akhirnya.
-
----
-
-# Struktur Folder Project
-
-Buat struktur folder seperti ini:
-
-```text
-belajar-php-dan-laravel/
-└── 2-php-web-dasar/
-    └── 2.1-struktur-project-php/
-        └── index.php
-```
-
-Jika menggunakan command `tree`:
-
-```text
-.
-├── 1-dasar-php
-└── 2-php-web-dasar
-    └── 2.1-struktur-project-php
-        └── index.php
-```
-
----
-
-# Apa Itu htdocs?
-
-Lokasi default:
+Kalau kamu install XAMPP, biasanya ada folder:
 
 ```text
 C:\xampp\htdocs
 ```
 
-Folder `htdocs` adalah tempat semua project web PHP disimpan.
+Folder ini adalah tempat project PHP dijalankan.
 
 Anggap saja:
 
 ```text
-htdocs = rumah project web
+htdocs = rumah project PHP
 ```
 
-Kalau file PHP tidak disimpan di dalam `htdocs`, browser biasanya tidak bisa mengakses project tersebut.
+Semua project web PHP harus masuk ke sini supaya bisa diakses browser lewat localhost.
 
-Contoh salah:
+Contoh:
 
 ```text
-Desktop/project-php/index.php
+C:\xampp\htdocs\belajar-php-dan-laravel
 ```
 
-Lalu dibuka:
+Kalau project ditaruh di luar `htdocs`:
 
 ```text
-localhost/project-php
+Desktop/project-php
 ```
 
-Hasilnya tidak akan berjalan.
+biasanya browser tidak bisa mengakses project itu.
 
 Kenapa?
 
-Karena server Apache hanya membaca folder tertentu, yaitu:
+Karena Apache hanya membaca folder tertentu.
+
+Dan folder utamanya adalah:
 
 ```text
 htdocs
@@ -107,60 +57,28 @@ htdocs
 
 ---
 
-# Apa Itu XAMPP?
+# 2. Apa itu XAMPP?
 
-XAMPP adalah software yang berisi beberapa tools untuk development web.
+XAMPP adalah paket software untuk menjalankan web secara lokal.
 
-Komponen penting:
+Di dalamnya ada beberapa tools:
 
-- Apache → Web Server
-- PHP → Bahasa backend
-- MySQL → Database
+- Apache → server web
+- PHP → bahasa backend
+- MySQL → database
 - phpMyAdmin → GUI database
 
-Untuk materi sekarang kita fokus ke:
+Untuk sekarang kita fokus ke:
 
 ```text
 Apache + PHP
 ```
 
----
-
-# Cara Kerja Request Web
-
-Misalnya kita membuka:
-
-```text
-http://localhost/belajar-php-dan-laravel
-```
-
-Yang terjadi:
-
-1. Browser meminta halaman
-2. Apache menerima request
-3. Apache mencari file PHP
-4. PHP diproses
-5. Hasil dikirim ke browser
-
-Diagram sederhana:
-
-```text
-Chrome / Browser
-       ↓
-Request dikirim
-       ↓
-Apache (XAMPP)
-       ↓
-PHP diproses
-       ↓
-HTML dihasilkan
-       ↓
-Browser menampilkan hasil
-```
+Karena database belum dipakai.
 
 ---
 
-# Apa Itu localhost?
+# 3. Apa itu localhost?
 
 `localhost` artinya:
 
@@ -174,38 +92,100 @@ Secara teknis:
 127.0.0.1
 ```
 
-Jadi ini sama:
+Jadi:
 
 ```text
 http://localhost
 ```
 
-dan:
+sama dengan:
 
 ```text
 http://127.0.0.1
 ```
 
-Keduanya mengarah ke komputer kita sendiri.
+Artinya browser sedang berbicara dengan komputer sendiri.
+
+Bukan internet.
+
+Contoh:
+
+```text
+http://localhost/belajar-php-dan-laravel
+```
+
+Artinya:
+
+> "komputer, buka folder belajar-php-dan-laravel"
 
 ---
 
-# Kenapa index.php Otomatis Terbuka?
+# 4. Cara Kerja PHP di Browser
 
-Misalnya struktur folder:
+Misalnya kamu buka:
+
+```text
+http://localhost/belajar-php-dan-laravel
+```
+
+Yang terjadi:
+
+```text
+Browser
+    ↓
+Apache menerima request
+    ↓
+PHP dijalankan
+    ↓
+hasil HTML dikirim
+    ↓
+Browser menampilkan hasil
+```
+
+Penting:
+
+Browser **tidak menjalankan PHP**.
+
+Browser cuma menerima hasil akhirnya.
+
+Misalnya:
+
+```php
+<?php
+
+$nama = "Elang";
+
+echo "<h1>Halo $nama</h1>";
+```
+
+Yang diterima browser sebenarnya:
+
+```html
+<h1>Halo Elang</h1>
+```
+
+PHP sudah diproses dulu di server.
+
+---
+
+# 5. Kenapa index.php Otomatis Terbuka?
+
+Misalnya folder:
 
 ```text
 2.1-struktur-project-php/
 └── index.php
 ```
 
-Lalu membuka URL:
+Kamu buka:
 
 ```text
 localhost/belajar-php-dan-laravel/2-php-web-dasar/2.1-struktur-project-php
 ```
 
-Tetap berjalan walaupun tanpa:
+Tetap bisa jalan.
+
+Padahal tidak menulis:
 
 ```text
 /index.php
@@ -213,16 +193,14 @@ Tetap berjalan walaupun tanpa:
 
 Kenapa?
 
-Karena server otomatis mencari file default.
-
-Biasanya:
+Karena server otomatis mencari:
 
 ```text
 index.php
 index.html
 ```
 
-Makanya kebanyakan project menggunakan nama:
+Makanya file awal project biasanya dinamakan:
 
 ```text
 index.php
@@ -230,169 +208,64 @@ index.php
 
 ---
 
-# Praktik 1 - File PHP Web Pertama
+# Praktik 1 - Web PHP Pertama
 
-Buat file:
+Buka file:
 
 ```text
-2.1-struktur-project-php/
-└── index.php
+index.php
 ```
 
-Isi file:
+Isi:
 
 ```php
 <?php
 
 echo "<h1>Halo Elang</h1>";
-echo "<p>Ini project PHP web pertama gua</p>";
+echo "<p>Selamat datang di PHP Web</p>";
 ```
 
----
-
-# Menjalankan Project
-
-## 1. Jalankan XAMPP
-
-Buka XAMPP lalu tekan:
-
-```text
-Start Apache
-```
-
-Status harus hijau.
-
----
-
-## 2. Jalankan di Browser
-
-Buka:
+Lalu jalankan:
 
 ```text
 http://localhost/belajar-php-dan-laravel/2-php-web-dasar/2.1-struktur-project-php
 ```
 
-Output:
+Kalau berhasil akan muncul:
 
 ```text
 Halo Elang
-Ini project PHP web pertama gua
+Selamat datang di PHP Web
 ```
 
 ---
 
-# Praktik 2 - Menggunakan Variabel di Web
+# Praktik 2 - Variabel di Browser
 
-Ganti isi `index.php` menjadi:
+Ganti isi file:
 
 ```php
 <?php
 
 $nama = "Elang";
 $umur = 20;
-$role = "Junior Fullstack Developer";
+$hobi = "Ngoding";
 
 echo "<h1>Halo $nama</h1>";
 echo "<p>Umur: $umur</p>";
-echo "<p>Role: $role</p>";
+echo "<p>Hobi: $hobi</p>";
 ```
 
-Output:
+Sekarang coba ubah isi variabelnya.
 
-```text
-Halo Elang
-Umur: 20
-Role: Junior Fullstack Developer
-```
-
----
-
-# Praktik 3 - Menggabungkan HTML dan PHP
-
-Isi file:
+Misalnya:
 
 ```php
-<?php
-
-$nama = "Elang";
-?>
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Belajar PHP</title>
-</head>
-<body>
-
-    <h1>
-        Halo <?= $nama ?>
-    </h1>
-
-</body>
-</html>
+$nama = "Capybara Raja";
 ```
 
----
+Lihat perubahan output.
 
-# Apa Itu <?= ?>
+Eksperimen penting.
 
-Ini adalah shortcut dari:
-
-```php
-<?php echo ?>
-```
-
-Contoh:
-
-```php
-<?= $nama ?>
-```
-
-Sama dengan:
-
-```php
-<?php echo $nama; ?>
-```
-
-Ini sering dipakai nanti di Laravel.
-
----
-
-# Kesimpulan
-
-Pada materi ini kita belajar:
-
-- Struktur project PHP
-- Folder `htdocs`
-- Cara kerja request web
-- `localhost`
-- `index.php`
-- Menjalankan PHP di browser
-- Variabel di halaman web
-- Kombinasi HTML + PHP
-
----
-
-# Mini Tugas
-
-Edit praktik 3 agar menampilkan:
-
-- Nama
-- Umur
-- Hobi
-- Cita-cita
-
-Menggunakan:
-
-- Variabel PHP
-- HTML
-- `<?= ?>`
-
-Contoh output:
-
-```text
-Nama: Elang
-Umur: 20
-Hobi: Ngoding
-Cita-cita: Fullstack Developer
-```
+Karena coding itu skill praktik, bukan hafalan.
