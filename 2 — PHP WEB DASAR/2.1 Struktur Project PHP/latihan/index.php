@@ -1,27 +1,32 @@
 <?php
 
-/*
-LATIHAN 2.1
+    /*
+        LATIHAN 2.1
 
-Buat halaman biodata sederhana.
+        Buat halaman biodata sederhana.
 
-Tampilkan:
+        Tampilkan:
 
-- nama
-- umur
-- hobi
-- makanan favorit
+        - nama
+        - umur
+        - hobi
+        - makanan favorit
 
-Gunakan:
-- variable PHP
-- echo HTML
+        Gunakan:
+        - variable PHP
+        - echo HTML
 
-Contoh output:
+        Contoh output:
 
-Nama: Elang
-Umur: 20
-Hobi: Ngoding
-Makanan favorit: Nasi Goreng
-*/
+        Nama: Elang
+        Umur: 20
+        Hobi: Ngoding
+        Makanan favorit: Nasi Goreng
+    */
 
+    $nama = "elang";
+    $umur = 19;
+    $hobi = "ngoding";
+    $fav_makanan = "mie ayam";
+    
 ?>
