@@ -37,3 +37,21 @@
     $deskripsi = "Saya suka ngoding web dan sedang belajar PHP";
 ?>
 
+<!doctype html>
+<html>
+    <head>
+        <title>mini project</title>
+    </head>
+    <body>
+        <h1>================</h1>
+        <h1>pofile <?= $nama ?></h1>
+        <h1>================</h1>
+
+        <h3>nama: <?= $nama ?></h3>
+        <h3>umur: <?= $umur ?></h3>
+        <h3>role: <?= $role ?></h3>
+        <h3>cita cita: <?= $cita_cita ?></h3>
+        <h3>tentang saya :</h3>
+        <p><?= $deskripsi ?></p>
+    </body>
+</html>
