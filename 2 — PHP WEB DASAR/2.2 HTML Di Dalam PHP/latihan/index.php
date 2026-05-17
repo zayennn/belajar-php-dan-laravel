@@ -52,10 +52,10 @@
         <p>genre : </p>
         <ul>
             <?php for($i = 0; $i < count($genre); $i++) : ?>
-                <li><?= $i ?></li>
+                <li><?= $genre[$i] ?></li>
             <?php endfor ?>
         </ul>
-        <p>nama game : <?= $nama_game ?></p>
+        <p>developer game : <?= $developer ?></p>
         <p>nama game : <?= $nama_game ?></p>
         <p>nama game : <?= $nama_game ?></p>
     </body>
