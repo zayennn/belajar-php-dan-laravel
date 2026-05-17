@@ -6,6 +6,7 @@
         • kelas
         Lalu tampilkan semuanya pakai foreach
     */
+        
     $siswa = [
         [
             "nama" => "capytanic",
