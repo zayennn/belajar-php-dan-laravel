@@ -52,7 +52,7 @@
         <p>genre : </p>
         <ul>
             <?php for($i = 0; $i < count($genre); $i++) : ?>
-                
+                <li><?= $i ?></li>
             <?php endfor ?>
         </ul>
         <p>nama game : <?= $nama_game ?></p>
