@@ -35,10 +35,10 @@
 //     }
 
     $count = 1;
-    
+
     foreach($siswa as $dataSiswa) {
         echo "
-========= siswa ke " . ($i + 1) . " =========
+========= siswa ke " . $count . " =========
 nama siswa      : {$dataSiswa['nama']}
 umur siswa      : {$dataSiswa['umur']}
 kelas siswa     : {$dataSiswa['kelas']}
