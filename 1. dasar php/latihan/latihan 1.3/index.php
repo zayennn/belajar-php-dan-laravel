@@ -18,6 +18,9 @@
     ];
 
     for($i = 0; $i < count($siswa); $i++) {
-        // 
+        echo "========= siswa ke $i =========";
+        echo "
+            nama siswa  : $siswa[$nama]
+        ";
     }
 ?>
