@@ -20,4 +20,6 @@
     for($i = 0; $i < count($siswa); $i++) {
         // 
     }
+
+    echo count($siswa)
 ?>
