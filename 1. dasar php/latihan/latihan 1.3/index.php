@@ -43,5 +43,7 @@ nama siswa      : {$dataSiswa['nama']}
 umur siswa      : {$dataSiswa['umur']}
 kelas siswa     : {$dataSiswa['kelas']}
         ";
+
+        $count++;
     }
 ?>
