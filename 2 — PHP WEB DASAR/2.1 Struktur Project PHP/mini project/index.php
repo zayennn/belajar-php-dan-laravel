@@ -43,9 +43,8 @@
         <title>mini project</title>
     </head>
     <body>
-        <h1>================</h1>
         <h1>profile <?= $nama ?></h1>
-        <h1>================</h1>
+        <hr>
 
         <p>nama: <?= $nama ?></p>
         <p>umur: <?= $umur ?></p>
