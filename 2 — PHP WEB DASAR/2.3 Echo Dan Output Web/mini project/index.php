@@ -29,3 +29,5 @@
 
         Semua output pakai echo.
     */
+
+?>
