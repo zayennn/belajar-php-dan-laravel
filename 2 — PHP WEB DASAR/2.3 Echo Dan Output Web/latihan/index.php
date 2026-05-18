@@ -45,9 +45,9 @@
 
     echo "<h1>Profil Laptop</h1>";
     echo "<hr>";
-    echo "nama laptop : " . "$namaLaptop";
-    echo "processor   : " . "$processor";
-    echo "ram         : " . "$ram";
-    echo "vga         : " . "$vga";
-    echo "alasan suka : " . "$alasanSuka";
+    echo "nama laptop : " . $namaLaptop;
+    echo "processor   : " . $processor;
+    echo "ram         : " . $ram;
+    echo "vga         : " . $vga;
+    echo "alasan suka : " . $alasanSuka;
 ?>
