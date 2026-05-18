@@ -37,3 +37,10 @@
         Karena performanya bagus.
     */
 
+    $namaLaptop = "asus tuf f15";
+    $processor = "intel core i5 12500h";
+    $ram = 16;
+    $vga = "RTX 3050 4GB Laptop GPU";
+    $alasanSuka = "karena mempunyai performa yang bagus";
+    
+?>
