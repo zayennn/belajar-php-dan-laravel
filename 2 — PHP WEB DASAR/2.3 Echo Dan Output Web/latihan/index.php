@@ -46,10 +46,10 @@
     echo "
 <h1>Profil Laptop</h1>
 <hr>
-nama laptop : $namaLaptop<br>
-processor   : $processor<br>
-ram         : $ram<br>
-vga         : $vga<br>
-alasan suka : $alasanSuka
+<p>nama laptop : $namaLaptop</p>
+<p>processor   : $processor</p>
+<p>ram         : $ram</p>
+<p>vga         : $vga</p>
+<p>alasan suka : $alasanSuka</p>
     ";
 ?>
