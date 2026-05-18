@@ -30,7 +30,6 @@
         Semua output pakai echo.
     */
 
-    $namaSetup = "setup saya";
     $monitor = "ASUS ROG Swift PG65UQ";
     $keyboard = "ASUS ROG Azoth Extreme";
     $mouse = "ASUS ROG Spatha X";
@@ -38,3 +37,19 @@
     $ram = 128;
     $deskripsi = "siap libas semua game AAA dengan setingan mentok rata kanan dengan path racing + resolusi 8k";
 ?>
+
+<!doctype html>
+<html>
+    <head>
+        <title>mini project</title>
+    </head>
+    <body>
+        <h1><?= "setup gaming saya" ?></h1>
+        <hr>
+
+        <p>monitor : <?= $monitor ?></p>
+        <p>keyboard : <?= $keyboard ?></p>
+        <p>mouse : <?= $mouse ?></p>
+        <p>monitor : <?= $monitor ?></p>
+    </body>
+</html>
