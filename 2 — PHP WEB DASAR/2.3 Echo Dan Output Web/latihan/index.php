@@ -44,12 +44,12 @@
     $alasanSuka = "karena mempunyai performa yang bagus";
 
     echo "
-<h1>$alasanSuka</h1>
+<h1>Profil Laptop</h1>
 <hr>
-nama laptop : $nama
-processor   : $processor
-ram         : $ram
-vga         : $vga
-
+nama laptop : $namaLaptop<br>
+processor   : $processor<br>
+ram         : $ram<br>
+vga         : $vga<br>
+alasan suka : $alasanSuka
     ";
 ?>
