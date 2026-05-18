@@ -33,5 +33,7 @@
     $namaSetup = "setup saya";
     $monitor = "ASUS ROG Swift PG65UQ";
     $keyboard = "ASUS ROG Azoth Extreme";
-    $mouse = "ASUS ROG Spatha X"
+    $mouse = "ASUS ROG Spatha X";
+    $processor = "Intel Core i9-14900KS";
+    $ram = 128;
 ?>
