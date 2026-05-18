@@ -35,7 +35,7 @@
     $mouse = "ASUS ROG Spatha X";
     $processor = "Intel Core i9-14900KS";
     $ram = 128;
-    $deskripsi = "siap libas semua game AAA dengan setingan mentok rata kanan dengan path racing + resolusi 8k";
+    $deskripsi = "siap libas semua game AAA dengan setingan mentok rata kanan dengan path tracing + resolusi 8k";
 ?>
 
 <!doctype html>
