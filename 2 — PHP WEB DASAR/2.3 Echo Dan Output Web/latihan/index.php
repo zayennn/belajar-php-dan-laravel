@@ -44,14 +44,16 @@
     $alasanSuka = "karena mempunyai performa yang bagus";
 
     echo "
-<p>nama laptop : $namaLaptop</p>
-<p>processor   : $processor</p>
-<p>ram         : $ram</p>
+
+
+
 <p>vga         : $vga</p>
 <p>alasan suka : $alasanSuka</p>
     ";
 
     echo "<h1>Profil Laptop</h1>";
     echo "<hr>";
-    
+    echo "<p>nama laptop : </p>" . $namaLaptop;
+    echo "<p>processor   : </p>" . $processor;
+    echo "<p>ram         : </p>" . $ram;
 ?>
