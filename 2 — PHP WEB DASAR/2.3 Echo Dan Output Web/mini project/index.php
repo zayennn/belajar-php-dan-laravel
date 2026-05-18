@@ -50,6 +50,8 @@
         <p>monitor : <?= $monitor ?></p>
         <p>keyboard : <?= $keyboard ?></p>
         <p>mouse : <?= $mouse ?></p>
-        <p>monitor : <?= $monitor ?></p>
+        <p>processor : <?= $processor ?></p>
+        <p>ram : <?= $ram ?></p>
+        <p><?= "tentang setup saya : " . $deskripsi ?></p>
     </body>
 </html>
