@@ -43,17 +43,11 @@
     $vga = "RTX 3050 4GB Laptop GPU";
     $alasanSuka = "karena mempunyai performa yang bagus";
 
-    echo "
-
-
-
-<p>vga         : $vga</p>
-<p>alasan suka : $alasanSuka</p>
-    ";
-
     echo "<h1>Profil Laptop</h1>";
     echo "<hr>";
     echo "<p>nama laptop : </p>" . $namaLaptop;
     echo "<p>processor   : </p>" . $processor;
     echo "<p>ram         : </p>" . $ram;
+    echo "<p>vga         : </p>" . $vga;
+    echo "<p>alasan suka : </p>" . $alasanSuka;
 ?>
