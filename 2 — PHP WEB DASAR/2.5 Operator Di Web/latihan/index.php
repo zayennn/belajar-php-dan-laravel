@@ -71,9 +71,9 @@ $total = $subtotal - $diskon;
     <title>Document</title>
 </head>
 <body>
-    <h2>Nama product <?= $product ?> </h2>
-    <h2>Harga <?= number_format($product, 0, ",", ".") ?> </h2>
-    <h2>Jumlah beli <?= $jumlahBeli ?> </h2>
-    <h2>Total harga <?= number_format($total,0,",",".") ?> </h2>
+    <p>Nama product : <?= $product ?> </p>
+    <p>Harga : Rp <?= number_format($harga, 0, ",", ".") ?> </p>
+    <p>Jumlah beli : <?= $jumlahBeli ?> </p>
+    <p>Total harga : Rp <?= number_format($total,0,",",".") ?> </p>
 </body>
 </html>
