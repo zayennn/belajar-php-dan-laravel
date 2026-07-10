@@ -44,12 +44,12 @@ echo "<hr>";
 $nama_warnet = "CapyNet";
 $jumlah_pc = 20;
 $harga_per_jam = 5000;
-$total_pendapatan = $harga_per_jam * $jumlah_pc;
+$total_pendapatan = $harga_per_jam * $jumlah_pc * 5;
 
 echo "<h3>Nama Warnet       : {$nama_warnet}</h3>";
 echo "<h3>Jumlah PC         : {$jumlah_pc}</h3>";
-echo "<h3>Harga /Jam        : {$jumlah_pc}</h3>";
+echo "<h3>Harga /Jam        : Rp " . number_format($harga_per_jam, 0, ",", ".");
 echo "<p>Jika penuh 5 jam  : </p>";
-echo "<h3>Total pendapatan  : {$total_pendapatan}</h3>";
+echo "<h3>Total pendapatan  : Rp " . number_format($total_pendapatan, 0, ",", ".");
 
 ?>

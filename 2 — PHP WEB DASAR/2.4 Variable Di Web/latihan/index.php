@@ -41,15 +41,9 @@ $harga = 12000000;
 $jumlah_beli = 3;
 $total_harga = $harga * $jumlah_beli;
 
-echo "Nama Hp       : {$merk_hp}";
-echo "<br>";
-echo "<br>";
-echo "Harga         : Rp{$harga}";
-echo "<br>";
-echo "<br>";
-echo "Jumlah Beli   : {$jumlah_beli}";
-echo "<br>";
-echo "<br>";
-echo "Total         : {$total_harga}";
+echo "<h3>Nama Hp1       : {$merk_hp}</h3>";
+echo "<h3>Harga          : Rp " . number_format($harga, 0, ",", ".");
+echo "<h3>Jumlah Beli1   : {$jumlah_beli}</h3>";
+echo "<h3>Total          : Rp " . number_format($total_harga, 0, ",", ".");
 
 ?>
