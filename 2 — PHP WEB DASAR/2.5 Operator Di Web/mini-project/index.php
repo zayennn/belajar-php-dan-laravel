@@ -60,7 +60,7 @@ $total -= ($total * 5 / 100);
 */
 
 $nama = "capypoter";
-$gajiPokok = 500000;
+$gajiPokok = 5000000;
 $bonus = 500000;
 $potongan = 250000;
 $totalGaji = $gajiPokok + $bonus - $potongan;
@@ -80,9 +80,9 @@ $totalGaji -= ($totalGaji * 5 / 100);
     <hr>
 
     <p>Nama karyawan : <?= $nama ?></p>
-    <p>Gaji pokok : <?= number_format($gajiPokok,0,",",".") ?></p>
-    <p>Bonus : <?= number_format($bonus,0,",",".") ?></p>
-    <p>Potongan : <?= number_format($potongan,0,",",".") ?></p>
-    <p>Total gaji : <?= number_format($totalGaji,0,",",".") ?></p>
+    <p>Gaji pokok : Rp <?= number_format($gajiPokok,0,",",".") ?></p>
+    <p>Bonus : Rp <?= number_format($bonus,0,",",".") ?></p>
+    <p>Potongan : Rp <?= number_format($potongan,0,",",".") ?></p>
+    <p>Total gaji : Rp <?= number_format($totalGaji,0,",",".") ?></p>
 </body>
 </html>
