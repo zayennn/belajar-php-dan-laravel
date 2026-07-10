@@ -43,9 +43,12 @@ $total_harga = $harga * $jumlah_beli;
 
 echo "Nama Hp       : {$merk_hp}";
 echo "<br>";
-echo "Harga         : {$harga}";
+echo "<br>";
+echo "Harga         : Rp{$harga}";
+echo "<br>";
 echo "<br>";
 echo "Jumlah Beli   : {$jumlah_beli}";
+echo "<br>";
 echo "<br>";
 echo "Total         : {$total_harga}";
 
