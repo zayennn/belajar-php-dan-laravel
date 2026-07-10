@@ -56,7 +56,10 @@ $total -= 25000;
 $product = "Asus TUF F15";
 $harga = 12000000;
 $jumlahBeli = 2;
+$diskon = 25000;
 $subtotal = $harga * $jumlahBeli;
+
+$total = $subtotal - $diskon;
 
 ?>
 
@@ -68,6 +71,9 @@ $subtotal = $harga * $jumlahBeli;
     <title>Document</title>
 </head>
 <body>
-    
+    <h2>Nama product <?= $product ?> </h2>
+    <h2>Harga <?= number_format($product, 0, ",", ".") ?> </h2>
+    <h2>Jumlah beli <?= $jumlahBeli ?> </h2>
+    <h2>Total harga <?= number_format($total,0,",",".") ?> </h2>
 </body>
 </html>
