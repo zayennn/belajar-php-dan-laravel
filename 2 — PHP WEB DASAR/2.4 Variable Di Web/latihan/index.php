@@ -36,6 +36,11 @@ Total:
 */
 
 
+$merk_hp = "ROG Phone 9 PRO";
+$harga = 12000000;
+$jumlah_beli = 3;
+$total_harga = $harga * $jumlah_beli;
 
+echo "Nama Hp   : {$merk_hp}";
 
 ?>
