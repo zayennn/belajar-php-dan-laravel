@@ -46,10 +46,10 @@ $jumlah_pc = 20;
 $harga_per_jam = 5000;
 $total_pendapatan = $harga_per_jam * $jumlah_pc;
 
-echo "<h2>Nama Warnet       : {$nama_warnet}</h2>";
-echo "<h2>Jumlah PC         : {$jumlah_pc}</h2>";
-echo "<h2>Harga /Jam        : {$jumlah_pc}</h2>";
+echo "<h3>Nama Warnet       : {$nama_warnet}</h3>";
+echo "<h3>Jumlah PC         : {$jumlah_pc}</h3>";
+echo "<h3>Harga /Jam        : {$jumlah_pc}</h3>";
 echo "<p>Jika penuh 5 jam  : </p>";
-echo "<h2>Total pendapatan  : {$total_pendapatan}</h2>";
+echo "<h3>Total pendapatan  : {$total_pendapatan}</h3>";
 
 ?>
