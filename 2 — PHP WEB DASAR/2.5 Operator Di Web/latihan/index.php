@@ -52,3 +52,22 @@ $total -= 25000;
 
 =========================================
 */
+
+$product = "Asus TUF F15";
+$harga = 12000000;
+$jumlahBeli = 2;
+$subtotal = $harga * $jumlahBeli;
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
