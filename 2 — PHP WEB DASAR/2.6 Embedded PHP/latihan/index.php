@@ -31,10 +31,10 @@ Harga tampil menggunakan number_format().
 ====================================================
 */
 
-$merk = "";
-$tipe = "";
-$mesin = "";
-$tenaga = "";
-$harga = 0;
+$merk = "BMW M4";
+$tipe = "Sport";
+$mesin = "M TwinPower Turbo";
+$tenaga = "431 hp";
+$harga = 3490000000;
 
 ?>
