@@ -54,7 +54,8 @@ $vga = "RTX 5090 TI SUPER 64GB";
 $ram = "256gb";
 $ssd = "5000gb";
 $monitor = "ASUS ROG Swift PG27UQ 4K IPS";
-$harga = 120000000;
+$harga = 2200000000;
 
-$aksesoris = [];
+$aksesoris = ["Headset Sennheiser HE 1", "Mouse Razer Boomslang 20th Anniversary Edition", "Kursi Gaming Acer Predator Thronos", "Meja Lian Li DK series", "Facecame Elgato Facecam Pro", "Mic Shure SM7B"];
 ?>
+
