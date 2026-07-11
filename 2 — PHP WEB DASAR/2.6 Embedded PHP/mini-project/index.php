@@ -48,13 +48,13 @@ dengan Alternative Syntax.
 ====================================================
 */
 
-$namaPc = "";
-$processor = "";
-$vga = "";
-$ram = "";
-$ssd = "";
-$monitor = "";
-$harga = 0;
+$namaPc = "PC Gaming Ultra";
+$processor = "Intel Core Ultra 200V";
+$vga = "RTX 5090 TI SUPER 64GB";
+$ram = "256gb";
+$ssd = "5000gb";
+$monitor = "ASUS ROG Swift PG27UQ 4K IPS";
+$harga = 120000000;
 
 $aksesoris = [];
 ?>
