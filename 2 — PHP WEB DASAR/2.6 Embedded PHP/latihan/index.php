@@ -53,6 +53,6 @@ $harga = 3490000000;
     <p>Tipe mobil : <?= $tipe ?></p>
     <p>Mesin mobil : <?= $mesin ?></p>
     <p>Tenaga mobil : <?= $tenaga ?></p>
-    <p>Harga mobil : <?= number_format($harga,0,",",".") ?></p>
+    <p>Harga mobil : Rp <?= number_format($harga,0,",",".") ?></p>
 </body>
 </html>
