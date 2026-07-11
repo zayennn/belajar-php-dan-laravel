@@ -46,6 +46,13 @@ $harga = 3490000000;
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Profil Mobil</h1>
+    <hr>
+
+    <p>Merk mobil : <?= $merk ?></p>
+    <p>Tipe mobil : <?= $tipe ?></p>
+    <p>Mesin mobil : <?= $mesin ?></p>
+    <p>Tenaga mobil : <?= $tenaga ?></p>
+    <p>Harga mobil : <?= number_format($harga,0,",",".") ?></p>
 </body>
 </html>
