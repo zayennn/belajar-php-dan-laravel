@@ -67,7 +67,7 @@ Gunakan boolean.
 */
 
 $nama = "Capyking";
-$role = "admin";
+$role = "member";
 $isLogin = true;
 
 $members = ["Capytanic", "CapyMcD", "CapyObake"];
@@ -124,8 +124,25 @@ $products = ["Apel", "Pisang", "Mangga", "Jeruk"];
         </table>
 
     <?php elseif ($isLogin && $role == "member") : ?>
-        
-        
+        <h3>Selamat datang kembali, <?= $nama ?></h3>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <td>No</td>
+                    <td>Product</td>
+                    <td>Status</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+
     <?php else : ?>
         <p>Silahkan login terlebih dahulu</p>
     <?php endif; ?>
