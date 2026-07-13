@@ -66,8 +66,9 @@ Gunakan boolean.
 ===================================================
 */
 
-$nama = "";
-$role = "";
+$nama = "Capyking";
+$role = "admin";
 $isLogin = true;
 
 ?>
+
