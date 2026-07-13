@@ -87,19 +87,16 @@ $students = [
     <table border="1">
         <thead>
             <tr>
-                <th style="padding: 1rem"></th>
-                <th style="padding: 1rem"></th>
-                <th style="padding: 1rem"></th>
-                <th style="padding: 1rem"></th>
+                <th style="padding: 1rem">No</th>
+                <th style="padding: 1rem">Nama</th>
+                <th style="padding: 1rem">Kelas</th>
+                <th style="padding: 1rem">Nilai</th>
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td style="padding: 1rem"></td>
-                <td style="padding: 1rem"></td>
-                <td style="padding: 1rem"></td>
-                <td style="padding: 1rem"></td>
-            </tr>
+            <?php foreach ($students as $i => $student) : ?>
+
+            <?php endforeach; ?>
         </tbody>
     </table>
 </body>
