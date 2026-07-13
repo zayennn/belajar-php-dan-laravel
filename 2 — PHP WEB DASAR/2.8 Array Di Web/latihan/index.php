@@ -44,7 +44,8 @@ $phone = [
     "warna" => "Hitam",
     "bateraiDanPengisianDaya" => "5800mAh, fast charging 65W (serta pengisian nirkabel 15W)",
     "sistemOperasi" => "Android 15 dengan ROG UI",
-    "fiturLainnya" => "Sensor AirTrigger, WiFi 7, NFC, dan lampu RGB"
+    "fiturLainnya" => "Sensor AirTrigger, WiFi 7, NFC, dan lampu RGB",
+    "harga" => number_format(21999000,0,",",".")
 ];
 
 ?>
@@ -71,6 +72,7 @@ $phone = [
         <li>Baterai & Pengisian Daya : <?= $phone["bateraiDanPengisianDaya"] ?></li>
         <li>Sistem Operasi<?= $phone["sistemOperasi"] ?></li>
         <li>Fitur Lainnya : <?= $phone["fiturLainnya"] ?></li>
+        <li>Harga : Rp <?= $phone["harga"] ?></li>
     </ul>
 </body>
 </html>
