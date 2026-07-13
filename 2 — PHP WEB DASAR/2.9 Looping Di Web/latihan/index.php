@@ -103,7 +103,9 @@ $movies = [
             <?php foreach($movies as $i => $movie) : ?>
                 <tr >
                     <td style="padding: 1rem;"><?= $i + 1 ?></td>
-                    <td style="padding: 1rem;"><?= $movies[$i]["nama"] ?></td>
+                    <td style="padding: 1rem;">
+                        <?= $movies[$i]["nama"] ?>
+                    </td>
                     <td style="padding: 1rem;"><?= implode(", ", $movies[$i]["genre"]) ?></td>
                     <td style="padding: 1rem;"><?= $movies[$i]["tahun"] ?></td>
                     <td style="padding: 1rem;"><?= $movies[$i]["rating"] ?></td>
