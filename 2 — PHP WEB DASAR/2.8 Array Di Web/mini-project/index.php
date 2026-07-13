@@ -87,7 +87,10 @@ $games = [
                 <tr>
                     <td><?= $i + 1 ?></td>
                     <td><?= $games[$i]["nama"] ?></td>
-                    <td><?= $games[$i]["genre"] ?></td>
+                    <td>
+                        <?php foreach ($games[$i]["genre"] as $genre) : ?>
+                        <?php endforeach; ?>
+                    </td>
                     <td><?= $games[$i]["developer"] ?></td>
                     <td><?= $games[$i]["rating"] ?></td>
                     <td><?= $games[$i]["harga"] ?></td>
