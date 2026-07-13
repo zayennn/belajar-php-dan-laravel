@@ -122,6 +122,10 @@ $products = ["Apel", "Pisang", "Mangga", "Jeruk"];
                 <?php endfor; ?>
             </tbody>
         </table>
+
+    <?php elseif ($isLogin && $role == "member") : ?>
+        
+        
     <?php else : ?>
         <p>Silahkan login terlebih dahulu</p>
     <?php endif; ?>
