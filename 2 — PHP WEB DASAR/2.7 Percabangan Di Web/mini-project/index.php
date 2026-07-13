@@ -72,6 +72,12 @@ $isLogin = true;
 
 $members = ["Capytanic", "CapyMcD", "CapyObake"];
 $products = ["Apel", "Pisang", "Mangga", "Jeruk"];
+$riwayatPembelian = [
+    [$products[1], 2, "Complete"],
+    [$products[0], 1, "Cancel"],
+    [$products[2], 4, "Complete"],
+];
+
 ?>
 
 <!DOCTYPE html>
@@ -131,11 +137,18 @@ $products = ["Apel", "Pisang", "Mangga", "Jeruk"];
                 <tr>
                     <td>No</td>
                     <td>Product</td>
+                    <td>Jumlah</td>
                     <td>Status</td>
                 </tr>
             </thead>
             <tbody>
-                <?php for ($i = 0; $i < count(0); $i++) ?>
+                <?php for ($i = 0; $i < count($riwayatPembelian); $i++) : ?>
+                    <tr>
+                        <td> <?= $i + 1 ?> </td>
+                        <td> <?= $riwayatPembelian[$i][0] ?></td>
+                        <td> <?= $riwayatPembelian[$i][1] ?></td>
+                        <td> <?= $riwayatPembelian[$i][2] ?><td>
+                    </tr>
                 <?php endfor; ?>
             </tbody>
         </table>
