@@ -49,4 +49,6 @@ $nilai = 100;
 
 $status = $nilai === 100 ? "lulus" : "tidak lulus";
 
+echo $status;
+
 ?>
