@@ -39,14 +39,10 @@ Gunakan if.
 ====================================================
 */
 
-function halo() {
-
-?>
-
-<h1>Halo Dunia</h1>
-
-<?php
-
+function sapa() {
+    ?>
+    <h1>hello world</h1>
+    <?php
 }
 
 ?>
@@ -59,6 +55,8 @@ function halo() {
     <title>Document</title>
 </head>
 <body>
-    
+    <?php
+        sapa();
+    ?>
 </body>
 </html>
