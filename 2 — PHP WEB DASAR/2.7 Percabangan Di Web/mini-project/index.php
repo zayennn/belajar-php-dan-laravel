@@ -97,7 +97,7 @@ $member = ["Capytanic", "CapyMcD", "CapyObake"];
             </tr>
             <?php for ($i = 0; $i < count($member); $i++) :?>
                 <tr>
-                    <td><?= $i++ ?></td>
+                    <td><?= $i + 1 ?></td>
                 </tr>
             <?php endfor; ?>
         </table>
