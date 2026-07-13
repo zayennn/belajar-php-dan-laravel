@@ -39,6 +39,16 @@ Gunakan if.
 ====================================================
 */
 
+function halo() {
+
+?>
+
+<h1>Halo Dunia</h1>
+
+<?php
+
+}
+
 ?>
 
 <!DOCTYPE html>
