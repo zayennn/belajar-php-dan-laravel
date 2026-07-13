@@ -44,11 +44,32 @@ Menggunakan if elseif.
 =====================================================
 */
 
-$students = [];
-$nilai = 80;
-
-$status = $nilai >= 90 ? "A" : ( $nilai >= 80 ? "B" : "C");
-
-echo $status;
+$students = [
+    [
+        "nama" => "Rizky",
+        "kelas" => "XII RPL 1",
+        "nilai" => 90
+    ],
+    [
+        "nama" => "Dewi",
+        "kelas" => "XII RPL 2",
+        "nilai" => 85
+    ],
+    [
+        "nama" => "Budi",
+        "kelas" => "XII RPL 3",
+        "nilai" => 75
+    ],
+    [
+        "nama" => "Siti",
+        "kelas" => "XII RPL 4",
+        "nilai" => 65
+    ],
+    [
+        "nama" => "Andi",
+        "kelas" => "XII RPL 5",
+        "nilai" => 55
+    ]
+];
 
 ?>
