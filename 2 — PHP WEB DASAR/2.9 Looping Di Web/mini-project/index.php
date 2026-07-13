@@ -81,6 +81,26 @@ $students = [
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Daftar Mahasiswa</h1>
+    <hr>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th style="padding: 1rem"></th>
+                <th style="padding: 1rem"></th>
+                <th style="padding: 1rem"></th>
+                <th style="padding: 1rem"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="padding: 1rem"></td>
+                <td style="padding: 1rem"></td>
+                <td style="padding: 1rem"></td>
+                <td style="padding: 1rem"></td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
