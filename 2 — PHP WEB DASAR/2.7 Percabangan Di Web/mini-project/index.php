@@ -99,14 +99,14 @@ $products = ["Apel", "Pisang", "Mangga", "Jeruk"];
                 <?php for ($i = 0; $i < count($members); $i++) :?>
                     <tr>
                         <td><?= $i + 1 ?></td>
-                        <td><?= $nama[$i] ?></td>
+                        <td><?= $members[$i] ?></td>
                         <td><?= $role ?></td>
                     </tr>
                 <?php endfor; ?>
             </tbody>
         </table>
 
-        <table>
+        <table border="1">
             <thead>
                 <tr>
                     <th>No</th>
