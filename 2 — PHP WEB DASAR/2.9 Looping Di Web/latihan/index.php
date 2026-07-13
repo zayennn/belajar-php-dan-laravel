@@ -92,21 +92,16 @@ $movies = [
     <table border="1">
         <thead>
             <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Genre</th>
+                <th>Tahun</th>
+                <th>Rating</th>
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
+            <?php foreach($movies as $i => $movie) : ?>
+                <?php endforeach; ?>
         </tbody>
     </table>
 </body>
