@@ -87,20 +87,41 @@ $products = ["Apel", "Pisang", "Mangga", "Jeruk"];
 
     <?php if ($isLogin && $role === "admin") : ?>
         <h3>Selamat datang kembali, <?= $nama ?>!</h3>
-        <table>
-            <tr>
-                <th>No</th>
-                <th>Nama</th>
-                <th>Role</th>
-            </tr>
-            <?php for ($i = 0; $i < count($members); $i++) :?>
+        <table border="1">
+            <thead>
                 <tr>
-                    <td><?= $i + 1 ?></td>
-                    <td><?= $nama ?></td>
-                    <td><?= $role ?></td>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>Role</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php for ($i = 0; $i < count($members); $i++) :?>
+                    <tr>
+                        <td><?= $i + 1 ?></td>
+                        <td><?= $nama ?></td>
+                        <td><?= $role ?></td>
+                    </tr>
+                <?php endfor; ?>
+            </tbody>
+        </table>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Product</th>
+                </tr>
+            </thead>
+        </table>
+        <tbody>
+            <?php for ($i = 0; $i < count($products); $i++) : ?>
+                <tr>
+                    <td></td>
+                    <td></td>
                 </tr>
             <?php endfor; ?>
-        </table>
+        </tbody>
     <?php else : ?>
         <p>Silahkan login terlebih dahulu</p>
     <?php endif; ?>
