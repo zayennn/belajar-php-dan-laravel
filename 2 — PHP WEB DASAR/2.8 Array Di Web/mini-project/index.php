@@ -35,6 +35,25 @@ Rating
 ====================================================
 */
 
-$games = [];
+$games = [
+    [
+        "nama" => "The Elder Scrolls IV: Skyrim AE",
+        "genre" => ["Action", "Adventure", "Fantasy"],
+        "developer" => "Bethesda Game Studios",
+        "harga" => number_format(599000,0,",",".")
+    ],
+    [
+        "nama" => "Assassin's Creed IV Black Flag Resynced",
+        "genre" => ["Action", "Adventure", "Fantasy"],
+        "developer" => "Ubisoft",
+        "harga" => number_format(1084500,0,",",".")
+    ],
+    [
+        "nama" => "Valorant",
+        "genre" => ["Action", "FPS"],
+        "developer" => "Riot",
+        "harga" => number_format(0,0,",",".")
+    ],
+];
 
 ?>
