@@ -54,6 +54,8 @@ $nilai = 100;
     <title>Document</title>
 </head>
 <body>
+    <h1>Status kelulusan</h1>
+    <hr>
     
 </body>
 </html>
