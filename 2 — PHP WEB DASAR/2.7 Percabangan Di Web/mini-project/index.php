@@ -72,6 +72,8 @@ $isLogin = true;
 
 $member = ["Capytanic", "CapyMcD", "CapyObake"];
 
+$count = 1;
+
 ?>
 
 <!DOCTYPE html>
@@ -93,11 +95,11 @@ $member = ["Capytanic", "CapyMcD", "CapyObake"];
                 <th>Nama</th>
                 <th>Role</th>
             </tr>
-            <?php foreach ($member as $user) :?>
+            <?php for ($i = 0; $i < $member; $i++) :?>
                 <tr>
-                    <td></td>
+                    <td><?= $count++ ?></td>
                 </tr>
-            <?php endforeach; ?>
+            <?php endfor; ?>
         </table>
     <?php endif; ?>
 </body>
