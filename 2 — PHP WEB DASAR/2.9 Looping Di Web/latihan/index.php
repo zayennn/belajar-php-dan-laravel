@@ -43,7 +43,14 @@ Selain itu
 =====================================================
 */
 
-$movies = [];
+$movies = [
+    [
+        "nama" => "Deadpool",
+        "genre" => ["action", "thriller"],
+        "tahun" => 2012,
+        "rating" => 9
+    ],
+];
 
 ?>
 
@@ -57,6 +64,6 @@ $movies = [];
 <body>
     <h1>Daftar film</h1>
     <hr>
-    
+
 </body>
 </html>
