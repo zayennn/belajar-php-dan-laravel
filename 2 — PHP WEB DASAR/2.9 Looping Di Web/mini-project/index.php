@@ -45,9 +45,9 @@ Menggunakan if elseif.
 */
 
 $students = [];
-$nilai = 100;
+$nilai = 80;
 
-$status = $nilai === 100 ? "lulus" : "tidak lulus";
+$status = $nilai >= 90 ? "A" : ( $nilai >= 80 ? "B" : "C");
 
 echo $status;
 
