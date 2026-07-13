@@ -95,7 +95,7 @@ $member = ["Capytanic", "CapyMcD", "CapyObake"];
                 <th>Nama</th>
                 <th>Role</th>
             </tr>
-            <?php for ($i = 0; $i < $member; $i++) :?>
+            <?php for ($i = 0; $i < count($member); $i++) :?>
                 <tr>
                     <td><?= $i++ ?></td>
                 </tr>
