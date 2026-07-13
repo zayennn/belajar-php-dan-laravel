@@ -99,7 +99,7 @@ $products = ["Apel", "Pisang", "Mangga", "Jeruk"];
                 <?php for ($i = 0; $i < count($members); $i++) :?>
                     <tr>
                         <td><?= $i + 1 ?></td>
-                        <td><?= $nama ?></td>
+                        <td><?= $nama[$i] ?></td>
                         <td><?= $role ?></td>
                     </tr>
                 <?php endfor; ?>
@@ -117,8 +117,8 @@ $products = ["Apel", "Pisang", "Mangga", "Jeruk"];
         <tbody>
             <?php for ($i = 0; $i < count($products); $i++) : ?>
                 <tr>
-                    <td></td>
-                    <td></td>
+                    <td><?= $i + 1 ?></td>
+                    <td><?= $products[$i] ?></td>
                 </tr>
             <?php endfor; ?>
         </tbody>
