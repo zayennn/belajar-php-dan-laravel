@@ -105,7 +105,7 @@ $movies = [
                     <td style="padding: 1rem;"><?= $i + 1 ?></td>
                     <td style="padding: 1rem;">
                         <?= $movies[$i]["nama"] ?> 
-                        <?= ($movies[$i]["rating"] > 8) ? "(Very Recommended" : (($movies[$i]["rating"] > 8) ? "(Recommended)" : "(Not Recommended)") ?>
+                        <?= ($movies[$i]["rating"] > 8) ? "(Very Recommended)" : (($movies[$i]["rating"] >= 7) ? "(Recommended)" : "(Not Recommended)") ?>
                     </td>
                     <td style="padding: 1rem;"><?= implode(", ", $movies[$i]["genre"]) ?></td>
                     <td style="padding: 1rem;"><?= $movies[$i]["tahun"] ?></td>
