@@ -63,6 +63,10 @@ $nilai = 100;
         <strong>
             <?php if($nilai >= 90) : ?>
                 <i>Selamat! Nilai Sangat Baik</i>
+            <?php elseif ($nilai >=75 ) : ?>
+                <i>Kamu lulus</i>
+            <?php else : ?>
+                <i>Kamu tidak lulus</i>
             <?php endif;?>
         </strong>
     </p>
