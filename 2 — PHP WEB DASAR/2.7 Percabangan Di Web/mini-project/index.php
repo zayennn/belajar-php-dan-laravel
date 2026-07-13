@@ -131,6 +131,7 @@ $riwayatPembelian = [
 
     <?php elseif ($isLogin && $role == "member") : ?>
         <h3>Selamat datang kembali, <?= $nama ?></h3>
+        <a href="">edit profile</a>
 
         <table border="1">
             <thead>
