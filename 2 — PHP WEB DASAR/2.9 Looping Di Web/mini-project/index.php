@@ -91,6 +91,7 @@ $students = [
                 <th style="padding: 1rem">Nama</th>
                 <th style="padding: 1rem">Kelas</th>
                 <th style="padding: 1rem">Nilai</th>
+                <th style="padding: 1rem">Grade</th>
             </tr>
         </thead>
         <tbody>
@@ -100,7 +101,12 @@ $students = [
                     <td style="padding: 1rem"><?= $student['nama'] ?></td>
                     <td style="padding: 1rem"><?= $student['kelas'] ?></td>
                     <td style="padding: 1rem"><?= $student['nilai'] ?></td>
-                    <td style="padding: 1rem"></td>
+                    <td style="padding: 1rem">
+                        <?= $student['nilai'] >= 90 ? "A" : 
+                        ($student['nilai'] >= 80 ? "B" :
+                        ($student['nilai'] >= 70 ? "C" :
+                        ($student['nilai'] >= 60 ? "D" : "E")))  ?>
+                    </td>
                 </tr>
             <?php endforeach; ?>
         </tbody>
