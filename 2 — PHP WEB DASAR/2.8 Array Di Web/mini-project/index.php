@@ -74,23 +74,17 @@ $games = [
     <table border="1">
         <thead>
             <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Genre</th>
+                <th>Developer</th>
+                <th>Rating</th>
+                <th>Harga</th>
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
+            <?php for($i = 0; $i < count($games); $i++) : ?>
+            <?php endfor; ?>
         </tbody>
     </table>
 </body>
