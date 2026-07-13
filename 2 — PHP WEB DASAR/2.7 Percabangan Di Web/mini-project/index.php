@@ -72,8 +72,6 @@ $isLogin = true;
 
 $member = ["Capytanic", "CapyMcD", "CapyObake"];
 
-$count = 1;
-
 ?>
 
 <!DOCTYPE html>
@@ -97,7 +95,7 @@ $count = 1;
             </tr>
             <?php for ($i = 0; $i < $member; $i++) :?>
                 <tr>
-                    <td><?= $count++ ?></td>
+                    <td><?= $i++ ?></td>
                 </tr>
             <?php endfor; ?>
         </table>
