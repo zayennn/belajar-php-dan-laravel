@@ -60,6 +60,17 @@ $phone = [
     <h1>Profil Smartphone</h1>
     <hr>
 
-
+    <ul>
+        <li>Nama : <?= $phone["nama"] ?></li>
+        <li>Layar : <?= $phone["layar"] ?></li>
+        <li>Chipset : <?= $phone["chipset"] ?></li>
+        <li>Ram & Penyimpanan : <?= $phone["ramDanPenyimpanan"] ?></li>
+        <li>Kamera Belakang<?= $phone["kameraBelakang"] ?></li>
+        <li>Kamera Depan<?= $phone["kameraDepan"] ?></li>
+        <li>Warna : <?= $phone["warna"] ?></li>
+        <li>Baterai & Pengisian Daya : <?= $phone["bateraiDanPengisianDaya"] ?></li>
+        <li>Sistem Operasi<?= $phone["sistemOperasi"] ?></li>
+        <li>Fitur Lainnya : <?= $phone["fiturLainnya"] ?></li>
+    </ul>
 </body>
 </html>
