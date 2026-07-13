@@ -72,7 +72,7 @@ $movies = [
         "nama" => "Marvel: End Game",
         "genre" => ["action"],
         "tahun" => 2023,
-        "rating" => 8
+        "rating" => 6
     ],
 ];
 
