@@ -102,7 +102,7 @@ $movies = [
         <tbody>
             <?php foreach($movies as $i => $movie) : ?>
                 <tr>
-                    <td></td>
+                    <td><?= $i ?></td>
                     <td></td>
                     <td></td>
                     <td></td>
