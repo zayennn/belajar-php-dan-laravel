@@ -87,11 +87,7 @@ $games = [
                 <tr>
                     <td><?= $i + 1 ?></td>
                     <td><?= $games[$i]["nama"] ?></td>
-                    <td>
-                        <?php foreach ($games[$i]["genre"] as $genre) : ?>
-                            <?= $genre ?>,
-                        <?php endforeach; ?>
-                    </td>
+                    <td><?= implode(",", $games[$i]["genre"]) ?></td>
                     <td><?= $games[$i]["developer"] ?></td>
                     <td><?= $games[$i]["rating"] ?></td>
                     <td><?= $games[$i]["harga"] ?></td>
