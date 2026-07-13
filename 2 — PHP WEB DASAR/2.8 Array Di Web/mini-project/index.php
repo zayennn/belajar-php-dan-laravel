@@ -58,10 +58,6 @@ $games = [
         "harga" => number_format(0,0,",",".")
     ],
 ];
-
-$genre = ["Action", "Adventure", "Fantasy"];
-echo implode($genre);
-
 ?>
 
 <!DOCTYPE html>
