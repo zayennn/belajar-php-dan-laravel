@@ -70,7 +70,8 @@ $nama = "Capyking";
 $role = "admin";
 $isLogin = true;
 
-$member = ["Capytanic", "CapyMcD", "CapyObake"];
+$members = ["Capytanic", "CapyMcD", "CapyObake"];
+$products = ["Apel", "Pisang", "Mangga", "Jeruk"];
 ?>
 
 <!DOCTYPE html>
@@ -92,7 +93,7 @@ $member = ["Capytanic", "CapyMcD", "CapyObake"];
                 <th>Nama</th>
                 <th>Role</th>
             </tr>
-            <?php for ($i = 0; $i < count($member); $i++) :?>
+            <?php for ($i = 0; $i < count($members); $i++) :?>
                 <tr>
                     <td><?= $i + 1 ?></td>
                     <td><?= $nama ?></td>
