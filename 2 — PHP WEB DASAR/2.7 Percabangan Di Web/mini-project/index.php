@@ -113,15 +113,15 @@ $products = ["Apel", "Pisang", "Mangga", "Jeruk"];
                     <th>Product</th>
                 </tr>
             </thead>
+            <tbody>
+                <?php for ($i = 0; $i < count($products); $i++) : ?>
+                    <tr>
+                        <td><?= $i + 1 ?></td>
+                        <td><?= $products[$i] ?></td>
+                    </tr>
+                <?php endfor; ?>
+            </tbody>
         </table>
-        <tbody>
-            <?php for ($i = 0; $i < count($products); $i++) : ?>
-                <tr>
-                    <td><?= $i + 1 ?></td>
-                    <td><?= $products[$i] ?></td>
-                </tr>
-            <?php endfor; ?>
-        </tbody>
     <?php else : ?>
         <p>Silahkan login terlebih dahulu</p>
     <?php endif; ?>
