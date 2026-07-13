@@ -45,7 +45,7 @@ $games = [
     ],
     [
         "nama" => "Assassin's Creed IV Black Flag Resynced",
-        "genre" => ["Action", "Adventure", "Fantasy"],
+        "genre" => ["Action", "Adventure"],
         "developer" => "Ubisoft",
         "rating" => "10/10",
         "harga" => number_format(1084500,0,",",".")
