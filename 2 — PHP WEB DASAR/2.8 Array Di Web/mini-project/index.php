@@ -68,6 +68,9 @@ $games = [
     <title>Document</title>
 </head>
 <body>
+    <h1>Daftar Game</h1>
+    <hr>
+
     
 </body>
 </html>
