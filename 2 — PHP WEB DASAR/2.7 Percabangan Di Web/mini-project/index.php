@@ -103,6 +103,8 @@ $member = ["Capytanic", "CapyMcD", "CapyObake"];
                 </tr>
             <?php endfor; ?>
         </table>
+    <?php else : ?>
+        <p>Silahkan login terlebih dahulu</p>
     <?php endif; ?>
 </body>
 </html>
