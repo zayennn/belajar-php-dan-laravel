@@ -56,6 +56,15 @@ $nilai = 100;
 <body>
     <h1>Status kelulusan</h1>
     <hr>
-    
+
+    <p>Nama : <?= $nama ?></p>
+    <p>Nilai : <?= $nilai ?></p>
+    <p>Status : 
+        <strong>
+            <?php if($nilai >= 90) : ?>
+                <i>Selamat! Nilai Sangat Baik</i>
+            <?php endif;?>
+        </strong>
+    </p>
 </body>
 </html>
