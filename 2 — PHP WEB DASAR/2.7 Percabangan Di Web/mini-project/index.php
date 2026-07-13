@@ -71,9 +71,6 @@ $role = "admin";
 $isLogin = true;
 
 $member = ["Capytanic", "CapyMcD", "CapyObake"];
-
-
-
 ?>
 
 <!DOCTYPE html>
