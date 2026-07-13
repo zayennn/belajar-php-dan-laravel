@@ -84,6 +84,15 @@ $games = [
         </thead>
         <tbody>
             <?php for($i = 0; $i < count($games); $i++) : ?>
+                <tr>
+                    <td><?= $i + 1 ?></td>
+                    <td><?= $games[$i]["nama"] ?></td>
+                    <td><?= $games[$i]["nama"] ?></td>
+                    <td><?= $games[$i]["nama"] ?></td>
+                    <td><?= $games[$i]["nama"] ?></td>
+                    <td><?= $games[$i]["nama"] ?></td>
+                    <td><?= $games[$i]["nama"] ?></td>
+                </tr>
             <?php endfor; ?>
         </tbody>
     </table>
