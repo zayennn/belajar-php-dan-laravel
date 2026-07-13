@@ -105,11 +105,11 @@ $movies = [
                     <td style="padding: 1rem;"><?= $i + 1 ?></td>
                     <td style="padding: 1rem;">
                         <?= $movie['nama'] ?> 
-                        <?= ($movie[$i]["rating"] > 8) ? "(Very Recommended)" : (($movie[$i]["rating"] >= 7) ? "(Recommended)" : "(Not Recommended)") ?>
+                        <?= ($movie["rating"] > 8) ? "(Very Recommended)" : (($movie["rating"] >= 7) ? "(Recommended)" : "(Not Recommended)") ?>
                     </td>
                     <td style="padding: 1rem;"><?= implode(", ", $movies[$i]["genre"]) ?></td>
-                    <td style="padding: 1rem;"><?= $movie[$i]["tahun"] ?></td>
-                    <td style="padding: 1rem;"><?= $movie[$i]["rating"] ?></td>
+                    <td style="padding: 1rem;"><?= $movie["tahun"] ?></td>
+                    <td style="padding: 1rem;"><?= $movie["rating"] ?></td>
                 </tr>
             <?php endforeach; ?>
         </tbody>
