@@ -39,9 +39,11 @@ Gunakan if.
 ====================================================
 */
 
-function sapa() {
+function card($nama) {
     ?>
-    <h1>hello world</h1>
+    <div style="border:1px solid black;padding:10px;margin:10px;">
+        <h2><?= $nama ?></h2>
+    </div>
     <?php
 }
 
@@ -56,7 +58,7 @@ function sapa() {
 </head>
 <body>
     <?php
-        sapa();
+        card("capyking");
     ?>
 </body>
 </html>
