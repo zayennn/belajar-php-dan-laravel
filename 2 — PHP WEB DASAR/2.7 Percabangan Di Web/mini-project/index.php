@@ -94,6 +94,9 @@ $member = ["Capytanic", "CapyMcD", "CapyObake"];
                 <th>Role</th>
             </tr>
             <?php foreach ($member as $user) :?>
+                <tr>
+                    <td></td>
+                </tr>
             <?php endforeach; ?>
         </table>
     <?php endif; ?>
