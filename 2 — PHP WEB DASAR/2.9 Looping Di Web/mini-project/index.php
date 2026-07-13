@@ -98,7 +98,8 @@ $students = [
                 <tr>
                     <td style="padding: 1rem"><?= $i+1 ?></td>
                     <td style="padding: 1rem"><?= $student['nama'] ?></td>
-                    <td style="padding: 1rem"></td>
+                    <td style="padding: 1rem"><?= $student['kelas'] ?></td>
+                    <td style="padding: 1rem"><?= $student['nilai'] ?></td>
                     <td style="padding: 1rem"></td>
                 </tr>
             <?php endforeach; ?>
