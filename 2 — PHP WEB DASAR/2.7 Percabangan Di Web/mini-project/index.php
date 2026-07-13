@@ -135,11 +135,8 @@ $products = ["Apel", "Pisang", "Mangga", "Jeruk"];
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
+                <?php for ($i = 0; $i < count(0); $i++) ?>
+                <?php endfor; ?>
             </tbody>
         </table>
 
