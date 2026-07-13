@@ -42,7 +42,7 @@ Tambahkan tulisan:
 */
 
 $nama = "Capypoter";
-$nilai = 100;
+$nilai = 74;
 
 ?>
 
