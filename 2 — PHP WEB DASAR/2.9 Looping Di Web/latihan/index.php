@@ -101,6 +101,13 @@ $movies = [
         </thead>
         <tbody>
             <?php foreach($movies as $i => $movie) : ?>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
             <?php endforeach; ?>
         </tbody>
     </table>
