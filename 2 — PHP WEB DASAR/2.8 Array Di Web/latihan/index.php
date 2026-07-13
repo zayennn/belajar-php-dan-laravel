@@ -56,6 +56,9 @@ $phone = [
     <title>Document</title>
 </head>
 <body>
+    <h1>Profil Smartphone</h1>
+    <hr>
+
     
 </body>
 </html>
