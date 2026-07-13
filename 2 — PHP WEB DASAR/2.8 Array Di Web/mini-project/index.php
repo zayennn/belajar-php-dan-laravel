@@ -40,20 +40,34 @@ $games = [
         "nama" => "The Elder Scrolls IV: Skyrim AE",
         "genre" => ["Action", "Adventure", "Fantasy"],
         "developer" => "Bethesda Game Studios",
+        "rating" => "10/10",
         "harga" => number_format(599000,0,",",".")
     ],
     [
         "nama" => "Assassin's Creed IV Black Flag Resynced",
         "genre" => ["Action", "Adventure", "Fantasy"],
         "developer" => "Ubisoft",
+        "rating" => "10/10",
         "harga" => number_format(1084500,0,",",".")
     ],
     [
         "nama" => "Valorant",
         "genre" => ["Action", "FPS"],
         "developer" => "Riot",
+        "rating" => "8.5/10",
         "harga" => number_format(0,0,",",".")
     ],
 ];
-
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
