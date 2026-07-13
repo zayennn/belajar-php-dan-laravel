@@ -50,6 +50,30 @@ $movies = [
         "tahun" => 2012,
         "rating" => 9
     ],
+    [
+        "nama" => "John Wick",
+        "genre" => ["action"],
+        "tahun" => 2021,
+        "rating" => 10
+    ],
+    [
+        "nama" => "The Equalizer",
+        "genre" => ["action"],
+        "tahun" => 2015,
+        "rating" => 9
+    ],
+    [
+        "nama" => "Venom",
+        "genre" => ["action", "thriller"],
+        "tahun" => 2012,
+        "rating" => 7
+    ],
+    [
+        "nama" => "Marvel: End Game",
+        "genre" => ["action"],
+        "tahun" => 2023,
+        "rating" => 8
+    ],
 ];
 
 ?>
