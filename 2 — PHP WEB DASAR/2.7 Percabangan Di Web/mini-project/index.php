@@ -70,6 +70,8 @@ $nama = "Capyking";
 $role = "admin";
 $isLogin = true;
 
+$member = ["Capytanic", "CapyMcD", "CapyObake"];
+
 ?>
 
 <!DOCTYPE html>
@@ -83,6 +85,17 @@ $isLogin = true;
     <h1>Dashboard user</h1>
     <hr>
 
-    
+    <?php if ($isLogin && $role === "admin") : ?>
+        <h3>Selamat datang kembali, <?= $nama ?>!</h3>
+        <table>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Role</th>
+            </tr>
+            <?php foreach ($member as $user) :?>
+            <?php endforeach; ?>
+        </table>
+    <?php endif; ?>
 </body>
 </html>
