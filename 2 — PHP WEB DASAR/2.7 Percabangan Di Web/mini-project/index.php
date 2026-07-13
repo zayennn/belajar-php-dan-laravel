@@ -98,6 +98,8 @@ $member = ["Capytanic", "CapyMcD", "CapyObake"];
             <?php for ($i = 0; $i < count($member); $i++) :?>
                 <tr>
                     <td><?= $i + 1 ?></td>
+                    <td><?= $nama ?></td>
+                    <td><?= $role ?></td>
                 </tr>
             <?php endfor; ?>
         </table>
